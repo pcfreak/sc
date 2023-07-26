@@ -17,7 +17,7 @@ LIGHT='\033[0;37m'
 # ==========================================
 # Getting
 MYIP=$(wget -qO- icanhazip.com);
-IZIN=$( curl https://anuy639.github.io/izin | grep $MYIP )
+IZIN=$( curl https://pcfreak.github.io/izin | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
@@ -35,7 +35,7 @@ echo "Checking VPS"
 clear
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/anuy639/sc/main/ipsec"
+akbarvpn="raw.githubusercontent.com/pcfreak/sc/main/ipsec"
 
 VPN_IPSEC_PSK='myvpn'
 NET_IFACE=$(ip -o $NET_IFACE -4 route show to default | awk '{print $5}');
