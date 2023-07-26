@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/anuy639/sc/main/ssh"
+akbarvpn="raw.githubusercontent.com/pcfreak/sc/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/anuy639/sc/main/sstp"
+akbarvpnn="raw.githubusercontent.com/pcfreak/sc/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/anuy639/sc/main/ssr"
+akbarvpnnn="raw.githubusercontent.com/pcfreak/sc/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/anuy639/sc/main/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/pcfreak/sc/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/anuy639/sc/main/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/pcfreak/sc/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/anuy639/sc/main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/pcfreak/sc/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/anuy639/sc/main/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/pcfreak/sc/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/anuy639/sc/main/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/pcfreak/sc/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/anuy639/sc/main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/pcfreak/sc/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/anuy639/sc/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/pcfreak/sc/main/ohp"
 
 # Getting
 echo -e ""
@@ -47,7 +47,7 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e ""
 sleep 5
 MYIP=$(wget -qO- icanhazip.com);
-IZIN=$( curl https://anuy639.github.io/izin | grep $MYIP )
+IZIN=$( curl https://pcfreak.github.io/izin | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
