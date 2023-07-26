@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://anuy639.github.io/izin | grep $MYIP )
+IZIN=$( curl https://pcfreak.github.io/izin | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
@@ -29,7 +29,7 @@ echo -e "${NC}${LIGHT}Telegram : https;//t.me/r1f4n_112"
 exit 0
 fi
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/Anuy639/sc/main/backup"
+akbarvpn="raw.githubusercontent.com/pcfreak/sc/main/backup"
 
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
